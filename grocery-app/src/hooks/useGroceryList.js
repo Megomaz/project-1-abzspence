@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { generateGroceryListAPI } from '../services/groceryService';
+import { generateGroceryListAPI } from '../Services/groceryService.js';
 
 export const useGroceryList = () => {
   const [formData, setFormData] = useState({
